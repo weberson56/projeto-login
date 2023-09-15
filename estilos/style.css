@@ -5,3 +5,48 @@
     --verde: #49a09d;
     --lilas: #5f2c82;
 }
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: var(--lilas);
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+section#logim{
+    background-color: aliceblue;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: 2px 2px 15px black;
+}
+
+section#logim > div#imagem{
+    display: block;
+    background: url('../imagens/pexels-kai-pilger-574043.jpg') no-repeat center center fixed;
+    background-size: cover;
+
+    height: 250px;
+}
+
+section#logim > div#formulario{
+    display: block;
+    padding: 10px;
+}
