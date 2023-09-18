@@ -36,6 +36,9 @@ section#logim{
     transform: translate(-50%, -50%);
     overflow: hidden;
     box-shadow: 2px 2px 15px black;
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 section#logim > div#imagem{
