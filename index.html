@@ -6,6 +6,8 @@
     <title>tela de logim</title>
     <link rel="stylesheet" href="estilos/style.css" media="all">
     <link rel="stylesheet" href="estilos/media-query.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
     <main>
@@ -17,7 +19,18 @@
                 <h1>logim</h1>
                 <p>seja bem vido faca o logim para acessar sua conta</p>
                 <form action="login.php" method="post">
-                    
+                    <div class="campo">
+                        <label for="ilogim"><span class="material-icons orange600">person</span></label>
+                        <input type="email" name="logim" id="ilogim" placeholder="digita seu email" autocomplete="email" required maxlength="30">
+                    </div>
+                    <div class="campo">
+                       <label for="isenha"><span class="material-icons">vpn_key</span></label>
+                       <input type="password" name="senha" id="isenha" placeholder="digita sua senha"autocomplete="password" required minlength="8" maxlength="16"> 
+                    </div><br>
+                    <div>
+                        <input type="submit" value="entrar">
+                        <a href="esquci.html">esquci a senha <span class="material-icons">mail</span></label></a>
+                    </div>
                 </form>
             </div>
         </section>
