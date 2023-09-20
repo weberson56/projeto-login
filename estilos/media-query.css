@@ -8,6 +8,7 @@
 
     section#logim{
         width: 80vw;
+        height: 335px;
     }
 
     section#logim > div#imagem {
@@ -29,6 +30,7 @@
 
     section#logim{
         width: 950px;
+        height: 370px;
     }
 
     section#logim > div#imagem{
@@ -47,6 +49,7 @@
     }
 
     div#formulario > p {
-        font-size: 1.3em;
+        font-size: 1.0em;
+        margin: 20px 0px;
     }
 }
